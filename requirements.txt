@@ -1,0 +1,4 @@
+cupy-cuda13x~=13.6.0
+opencv-python~=4.12.0.88
+numpy~=2.3.3
+tensorrt~=10.13.3.9
