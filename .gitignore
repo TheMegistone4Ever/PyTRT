@@ -2,6 +2,8 @@
 *.jpg
 *.onnx
 *.engine
+!media/
+!media/**/*.jpg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

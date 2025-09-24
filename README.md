@@ -8,9 +8,9 @@ highly optimized TensorRT engine, to performing real-time inference on images.
 
 The example provided demonstrates the detection of military vehicles in a satellite image.
 
-| Original Image                         | Detections                                  |
-|----------------------------------------|---------------------------------------------|
-| <img src="test_0279.jpg" width="600"/> | <img src="detections_out.jpg" width="600"/> |
+| Original Image                        | Detections                             |
+|---------------------------------------|----------------------------------------|
+| <img src="media/in.jpg" width="600"/> | <img src="media/out.jpg" width="600"/> |
 
 ## Table of Contents
 
