@@ -3,7 +3,7 @@ from typing import List
 import cv2
 from numpy import argsort, argmax, array, uint8
 
-from main import INPUT_SIZE, MAX_VALUE_PIX
+from config import INPUT_SIZE, MAX_VALUE_PIX
 
 
 def iou(box1: List[int], box2: List[int]) -> float:

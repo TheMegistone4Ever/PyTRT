@@ -3,6 +3,7 @@ import cv2
 import numpy as np
 import tensorrt as trt
 
+from config import INPUT_SIZE, MAX_VALUE_PIX
 from yolo_utils import draw_boxes
 
 TRT_LOGGER = trt.Logger(trt.Logger.WARNING)
@@ -15,7 +16,6 @@ def load_engine(path: str):
 
 engine = load_engine("best.engine")
 context = engine.create_execution_context()
-INPUT_SIZE, MAX_VALUE_PIX = 640, 255
 
 inputs, outputs, bindings = list(), list(), list()
 for name in map(engine.get_tensor_name, range(engine.num_io_tensors)):
